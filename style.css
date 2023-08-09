@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navcontainer{
+   
+    background-color:#ffff;
+}
+.navcontainer img{
+  padding: 0 350px;
+}
+.navlinks{
+    background-color: #4b4b4b;
+    height: 11vh;
+  
+   
+    
+}
+.links{
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+padding: 20px;
+}
+.links li{
+    list-style-type: none;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.links a{
+    text-decoration: none;
+    color:#96b285;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;padding: 17px 40px;
+}
+.links a:hover{
+    background-color: #f0f2c9;
+   
+}
+.herosection{
+    background-image: url(./images/gardening1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+.content{
+    background-color: #322d2a;
+    width: 100%;
+    height: 25vh;
+    line-height: 25px;
+    padding: 0 20px;
+   
+}
+.content h1{
+    color: #e3e699;
+    font-family: "Helvetica nune",Arial, sans-serif;
+    
+}
+.content h1:hover{
+    color:#ffff ;
+}
+.content p{
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.cardcontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap:2rem;
+    padding: 20px;
+
+}
+.card{
+    height: 100%;
+    width: 100%;
+ 
+   
+ 
+
+}
+.cardheader{
+    display: flex;
+  
+}
+.cardheader img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+    border: 2px solid white;
+  
+}
+.cardbody {
+   padding: 0 15px;
+}
+.cardbody h4{
+    color: #e3e699;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+.cardbody p{
+    /* text-indent: 20px; */
+    padding: 0 18px;
+  color: #ffff;  
+}
+.text{
+    background-color: #ffff;
+    padding: 10px;
+}
+.tools{
+    background-color:#dce9d4;
+    
+
+}
+.tools h3{
+    color: #836145;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 15px;
+ padding: 10px;
+}
+.contaninercard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 2rem;
+    padding: 10px;
+}
+.body h2{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#836145 ;
+    
+}
+.body p{
+    color: #4b4b4b;
+    font-size: 17px;
+}
+.line{
+    border-bottom: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.bodyy h2{
+    border: 2px solid #dce9d4;
+   text-align: center;
+    background-color:#dce9d4 ;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #836145;
+    margin-left: 25px;
+}
+.bodyy p{
+    color: #4b4b4b;
+    line-height: 40px;
+    padding: 0 40px;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color:#dce9d4;
+}
+.footerhead h2{
+    color: #8c8c8c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10px;
+}
+.footerbody p{
+    color: #8c8c8c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+}
+.headd{
+    color: #8c8c8c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 20px;
+   
+   
+   }
+   .bot li{
+    list-style-type: none;
+   }
+   .bot a{
+text-decoration: none;
+color: #8c8c8c;
+
+
+
+   }
+   .bot i{
+    color: #356618;
+    
+   }
+   .bot  i:hover{
+    color: #96b285;
+   
+   }
+   
+   .foot{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    background-color: #356618;
+    font-size: 11px;
+    padding: 0 350px;
+   }
+   .system{
+    background-color: #356618;
+    padding: 0 30px;
+    
+   }

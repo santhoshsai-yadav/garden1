@@ -1,0 +1,104 @@
+.checkbtn{
+    
+    display: none;
+    text-align: end;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+#check{
+    display: none;
+}
+@media (max-width:576px) {
+    .links{
+        position: absolute;
+        top: 180px;
+        display: none;
+        flex-direction: column;
+        height: 140px;
+        width: 100px;
+        text-align: center;
+       
+       
+    }
+    .links a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 430px;
+        background-color: black;
+        margin-left: 330px;
+       
+   
+    }
+    .links a:hover{
+    background-color: #322d2a;
+    
+    }
+    .checkbtn{
+        display: block;
+       
+    }
+    #check:checked~.links{
+        display: flex;
+    }
+    .navcontainer img{
+        padding: 0px 40px;
+       height: 50px;
+    }
+    .head{
+        padding: 0 ;
+       flex-direction: column;
+width: 100%;
+    }
+    .head img{
+        padding: 0 50px;
+    }
+    .bodyy{
+        padding: 45px;
+    }
+    .bodyy h2{
+        margin-left: 0px;
+
+    }
+    .foot{
+        padding: 10px;
+        
+    }
+    .footercontainer{
+        flex-direction: column;
+       
+    }
+    .footerhead h2{
+        padding: 0px;
+        
+    }
+    .header img{
+       padding: 0 80px;
+    }
+    .body h2{
+    text-align: center;
+    margin-right: 30px;
+   
+    font-size: 14px;
+}
+.body p{
+    padding: 0 120px;
+   
+}.tools h3{
+    margin-left: 100px;
+}
+.footercard{
+    padding: 20px;
+}
+.footercardd{
+    padding: 0 20px;
+}
+.bodyy p{
+    padding: 10px;
+}
+.cardbody{
+    margin-top: 43px;
+}
+}
